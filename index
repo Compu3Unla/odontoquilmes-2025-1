@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style" />  
+    <link rel="shortcut icon" href="" type="image/x-icon" />     
+    <title>Odontoquilmes</title>
+</head>
+
+</script>
+<body>
+    <header class="principal"> 
+  <a href="index.html">
+    <img class="imgprincipal" src="img/iconos/muelas/web/logo-web.svg" alt="logomio">
+  </a>
+            <nav class="items">
+                <ul>
+                    <li><a href="">Preguntas frecuentes</a></li>
+                    <li><a href="#">Profesionales</a></li>
+                    <li><a href="">Tratamiento</a></li>
+                    <li> <a href="">Turnos</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <footer class="footer">
+            <h2>Porfolio para la Cátedra Computación 3</h2>
+            <h2>Copyright© 2025. Todos los derechos reservados.</h2>
+    </footer>
+</body>
+
+
+</html>

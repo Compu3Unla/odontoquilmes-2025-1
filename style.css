@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+} 
+
+body{
+display: flex;
+flex-direction: column;
+}
+
+.header_container{
+ width: 100vw;
+  height: 15vh;
+  background-color: #97C9DD;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    font-family: "Lato"; 
+}
+
+.items { /nav/
+  font-family: "Montserrat", sans-serif; display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+nav a:hover { 
+  color: #EF8057;
+border-bottom: 2px solid #EF8057;}
+
+.items a { 
+  padding: 0.3rem 1rem;
+  color: #0E1F35;
+  text-decoration: none;
+}
+
+/CAMI/
+
+.principal_conteiner {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+.principal_fondo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.principal_fondo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.principal_article {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  padding: 30px;
+  max-width: 400px;
+}
+
+.h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-family: "Lato"; 
+}
+
+.text_p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #0d2b40;
+  font-family: "Lato";
+}
+
+.botones_principal {
+  display: flex;
+  gap: 20px;
+}
+
+.boton-conocer {
+  background-color: #f27648;
+  border: none;
+  color: #0d2b40;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.boton-turnos {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #0d2b40;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #97C9DD;
+}
+
+
+.container_botonera ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

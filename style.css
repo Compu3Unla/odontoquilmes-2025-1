@@ -104,6 +104,7 @@ border-bottom: 2px solid #EF8057;}
   border-radius: 20px;
   cursor: pointer;
 }
+
 .boton-turnos {
   background-color: transparent;
   border: 2px solid white;
@@ -123,20 +124,25 @@ border-bottom: 2px solid #EF8057;}
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-     background:#97C9DD;
+    background:#97C9DD;
     color: #fff;
     font-family: "Lato";
     position: relative;
 }
+
+
 
 .footer img {
     margin-bottom: 20px;
 }
 
 .container_botonera {
-    flex: 1;
-    align-items: center;
-    display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
 
 }
 
@@ -251,4 +257,214 @@ right: 46%;
 }
 
 
+.container_textp{ 
+  display: flex;
+  justify-content: center;
+  background-color: #689BBE;
+  text-align: center;
+  
+}
 
+.text_p{
+color: white;
+  font-size: 22px;
+  font-family: "Lato";
+
+
+}
+
+.container_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("img/fondos/fondo_2.jpg"); 
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.container_video video {
+  justify-content: center;
+  background-color: #f27648;        
+  padding: 20px;                     
+  border-radius: 190px 25px 190px 25px;
+  display: block;
+  max-width: 600px;
+  width: 100%;
+}
+
+.img_patron {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.informativo_container {
+background-color: #C7DBE0;
+
+
+}
+
+.ofertas_dentales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cde8f2;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Lato";
+}
+
+.contenedor_ofertas {
+  display: flex;
+  flex-direction: row;
+
+}
+.titulo_ofertas {
+  font-size: 28px;
+  color: #0E1F35;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color:#689BBE;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tarjetas_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin-top: 40px;
+}
+
+.tarjeta_oferta {
+  border: 3px solid #f27648;
+  border-radius: 30px;
+  width: 230px;
+  padding: 30px 20px 60px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.tarjeta_oferta h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #0d2b40;
+}
+
+
+.tarjeta_oferta ul li {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.iconos_tratamientos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.iconos_tratamientos img {
+  width: 30px;
+  height: auto;
+}
+
+.etiqueta {
+  line-height: 1.6; 
+  margin-bottom: 5px;
+ font-weight: bold;
+
+}
+
+.precio_final {
+  background-color: #fff;
+  border: 3px solid #f27648;
+  color: #f27648;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  position: absolute;
+  bottom: -25px;
+  left: 25%;
+  transition: transform 0.3s ease;
+}
+
+.precio_final:hover{
+
+ transform: scale(1.1);
+
+
+}
+
+
+.container_os{
+  display: flex;
+ 
+  gap:20%
+
+}
+
+
+.p_os{
+  font-family: "Lato"; 
+   font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #0d2b40; 
+}
+
+
+
+/*orne*/
+
+
+.imagen_grande_prof {
+  border-radius: 475px;
+  border: 10px solid #689BBE;
+
+}
+
+.imagen_chica_prof {
+  border-radius: 475px;
+  border: 6px solid #689BBE;
+}
+
+.contenedor_prof {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.izquierda_prof {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.derecha_prof {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.info_pp_prof {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.info-extra-prof {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}

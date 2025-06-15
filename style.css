@@ -4,23 +4,27 @@
   list-style: none;
 } 
 
+
+
 body{
 display: flex;
 flex-direction: column;
 }
 
+
+
+
 .header_container{
- width: 100vw;
+ max-width: 100vw;
   height: 15vh;
   background-color: #97C9DD;
   display: flex;
   justify-content: space-around;
   align-items: center;
-    font-family: "Lato"; 
+  font-family: "Lato"; 
 }
 
 .items { /nav/
-  font-family: "Montserrat", sans-serif; display: flex;
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -110,19 +114,141 @@ border-bottom: 2px solid #EF8057;}
   cursor: pointer;
 }
 
+
+
 .footer {
     display: flex;
+    justify-items: center;
+    margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 20px;
-    background-color: #97C9DD;
+    justify-content: space-between;
+    align-items: center;
+     background:#97C9DD;
+    color: #fff;
+    font-family: "Lato";
+    position: relative;
 }
 
+.footer img {
+    margin-bottom: 20px;
+}
+
+.container_botonera {
+    flex: 1;
+    align-items: center;
+    display: flex;
+
+}
 
 .container_botonera ul {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px 0; 
+    margin: 0;
+    list-style: none;
 }
+
+.container_botonera ul li {
+    flex: 0 0 50%; 
+    box-sizing: border-box;
+}
+
+.container_botonera li a {
+    color: #0E1F35;
+    text-decoration: none;
+}
+
+.container_botonera li a:hover {
+    color: #EF8057;
+}
+
+.botonera_h3 {
+    margin-bottom: 15px;
+    color: #0E1F35;
+}
+
+
+.container_botonera a {
+    color: #0E1F35;
+    text-decoration: none;
+}
+
+.container_botonera a:hover {
+    color: #EF8057;
+}
+
+.parte_equipo {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px; 
+    gap: 20px;
+}
+
+.parte_equipo p a {
+    display: inline-block;
+    background-color: #f27648;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.parte_equipo p a:hover {
+    background-color: #EF8057;
+}
+
+.redes {
+    flex: 1;
+    min-width: 200px;
+    color: #0E1F35;
+}
+
+.redes ul {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+
+.redes h2 {
+    margin-bottom: 10px;
+}
+
+.redes p {
+    margin: 5px 0;
+}
+
+.formulario {
+border-radius: 5%;}
+
+
+.img_muelafooter {
+position: absolute;
+top: -37%;
+right: 46%;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0E1F35; /* azul oscuro */
+  text-align: center;
+  padding: 10px 50px;
+  color: white;
+  font-size: 12px;
+  margin-top: 40px;
+  font-family: "Lato";
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+
 

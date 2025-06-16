@@ -1,10 +1,176 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="utf-8" />
+    <title>Contacto</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
+
 <body>
-    
+ <header class="header_container"> 
+  <a href="index.html">
+    <img class="imgprincipal" src="img/iconos/logos/logo2.svg" alt="logo">
+  </a>
+            <nav class="items">
+                <ul>
+                     <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+                    <li><a href="profesionales.html">Profesionales</a></li>
+                    <li><a href="index.html#tratamientos">Tratamientos</a></li>
+                    <li> <a href="turnos.html">Turnos</a></li>
+                </ul>
+            </nav>
+
+    </header>
+
+    <main class="main-formu">
+        <section class="formulario">
+            <div class="caja-formu">
+                <div class="formu-h1">
+                    <h1>FORMULARIO DE TURNOS</h1>
+                </div>
+                <h3 class="subtitulo-formu">Completá tus datos y te contactaremos para confirmar tu turno.</h3>
+                <form class="formulario-form" action="#" method="post">
+                    <div class="fila">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="campo">
+                            <label for="dni">Documento de Identidad</label>
+                            <input type="text" id="dni" name="dni" required>
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="campo">
+                            <label for="telefono">Teléfono de Contacto</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="motivo">Motivo de Consulta</label>
+                        <input type="text" id="motivo" name="motivo" placeholder="Elegir.." required=""
+                            style="margin-bottom: 50px;">
+                    </div>
+
+                    <div class=" campo">
+                        <label for="comentarios">Comentarios Adicionales</label>
+                        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                    </div>
+
+                    <div class="boton-centro">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="art3">
+            <article class="direcciones">
+                <div class="contactos-h1">
+                    <h1>CONTACTANOS</h1>
+                </div>
+                <h3>Ubicacion</h3>
+                <div class="contactos">
+                    <img src="img/iconos/contacto/ubicacion.svg" alt="icono ubicacion">
+                    <ul>
+                        <li>Av. Soldado de la Frontera 2380, Villa Lugano, CABA</li>
+                        <li>Alvear 674, Quilmes, Buenos Aires</li>
+                        <li>Calle Italia 362, Lomas de Zamora, Buenos Aires</li>
+                    </ul>
+                </div>
+                <h3>Email</h3>
+                <div class="contactos">
+                    <img src="img/iconos/contacto/email.svg" alt="icono email">
+                    <ul>
+                        <li>OdontoQuilmes@gmail.com</li>
+                        <li>CentroOdontologicoOQ@gmail.com</li>
+                    </ul>
+                </div>
+                <h3>Llamada</h3>
+                <div class="contactos">
+                    <img src="img/iconos/contacto/tel.svg" alt="icono telefono">
+                    <ul>
+                        <li>+54 1166004130</li>
+                        <li>+54 1183647893</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <div class="caja-mapa-contac">
+                    <p class="p-titulo">Sede Alvear 674</p>
+                    <p class="p-titulo-2"> QUILMES</p>
+                    <div class="fondo-naranja-contac">
+                        <iframe class="mapa-contac"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.324074664147!2d-58.25700372535142!3d-34.72222477291191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e40fbf89f1d%3A0xc81fe83c854123bd!2sAlvear%20674%2C%20B1878%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1749493131101!5m2!1ses-419!2sar"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="p-datos-mapa">
+                        <p>Horarios:</p>
+                        <p style="color: #689BBE;">Lu. a Vi. 9 a 18 hs.</p>
+                        <p>Email de consultorio:</p>
+                        <p><a href="mailto:info@odontoquilmes.com.ar"
+                                style="color: #689BBE;">info@odontoquilmes.com.ar</a></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+ <footer class="footer">
+    <section class="container_botonera">
+        <h3 class="botonera_h3">BOTONERA</h3>
+                <ul class="container_ul">
+                  <li><a href="tratamientos">Tratamientos</a></li>
+                  <li><a href="turnos.html">Turnos</a></li>
+                  <li><a href="turnos.html">Contacto</a></li>
+                  <li><a href="turnos.html">Mi cuenta</a></li>
+                  <li><a href="index.html#obrasocial">Obra Social</a></li>
+                  <li><a href="turnos.html">Ubicación</a></li>
+                  <li><a href="index.html#precio">Precios</a></li>
+                  <li><a href="index.html">¿Quiénes Somos?</a></li>
+                  <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+                  <li><a href="profesionales.html">Profesionales</a></li>
+                </ul>
+    </section>
+
+    <section class="parte_equipo">
+      <img class="img_muelafooter" src="img/footer/boton-subir-web.png">
+        <p class="p_footer">¿Querés formar parte de nuestro equipo?</p>
+          <p><a href="formulario">Formulario</a></p>
+    </section>
+ 
+  <section class="redes">
+    <article>
+      <ul>
+        <li><a href="#"><img src="img/iconos/redes/ig.png" alt="Instagram"></a></li>
+        <li><a href="#"><img src="img/iconos/redes/img-logo-youtube.svg.png" alt="YouTube"></a></li>
+        <li><a href="#"><img src="img/iconos/redes/fb.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/iconos/redes/tw.png" alt="Twitter"></a></li>
+      </ul>
+    </article>
+    <article>
+        <p class="redes_p">Horarios: Lu. a Vi. 9 a 18 hs.</p>
+          <p class="redes_p">Email de consultorio: info@odontoquilmes.com.ar</p>
+            <p class="redes_p">Dirección Principal: Quilmes - Alvear 674 oficina 1</p>
+              <p class="redes_p">Número Telefónico: +54 1166004130 </p>
+  </section>
+
+  <div class="footer-bottom">
+    <p>© 2025 Odonto Quilmes. Todos los derechos reservados. </p>
+    <p>| Términos y condiciones | Política de privacidad</p>
+  </div>
+</footer>
 </body>
 </html>
